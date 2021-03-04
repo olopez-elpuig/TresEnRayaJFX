@@ -1,7 +1,6 @@
 #buttons {
-    -fx-text-fill: #006464;
-    -fx-border-radius: 20;
-    -fx-background-radius: 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
     -fx-text-fill: blue;
 }
 
@@ -12,10 +11,4 @@
 .buttonsGanador {
     -fx-text-fill: green;
     -fx-font-size: 50pt;
-}
-
-.labelClasificacion {
-    -fx-font-size: 10pt;
-    -fx-min-width: 135pt;
-    -fx-alignment: center ;
 }
