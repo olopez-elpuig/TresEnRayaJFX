@@ -1,0 +1,21 @@
+#buttons {
+    -fx-text-fill: #006464;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-text-fill: blue;
+}
+
+#buttonsTER {
+        -fx-font-size: 50pt;
+}
+
+.buttonsGanador {
+    -fx-text-fill: green;
+    -fx-font-size: 50pt;
+}
+
+.labelClasificacion {
+    -fx-font-size: 10pt;
+    -fx-min-width: 135pt;
+    -fx-alignment: center ;
+}
