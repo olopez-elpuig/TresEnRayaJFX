@@ -70,7 +70,7 @@ public class Partida {
         return victoria;
     }
 
-    public void EmpezarPartida() {
+    public void Empezar() {
         estado = true;
         if(Eleccion_Primer_Turno()<5) {
             turno = 0;
@@ -79,18 +79,17 @@ public class Partida {
         }
     }
 
-    public void FinalizarPartida() {
+    public void Finalizar() {
         estado = false;
         VaciarCuadricula();
     }
 
-    public static void AbandonarPartida() {
+    public static void Salir() {
         djugador1 = djugador1 +1;
         vjugador2 = vjugador2+1;
         estado = false;
     }
 
-    //Método que comprueba si a cuadrícula está llena.
     public boolean CuadriculaLLena() {
         boolean resultado = true;
         for(int i=0;i<cuadricula.length;i++) {
