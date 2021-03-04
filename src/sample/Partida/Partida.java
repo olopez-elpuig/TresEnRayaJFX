@@ -14,7 +14,6 @@ public class Partida {
     private String value;
     private String color;
 
-    /*Geters y seters utilizados.*/
 
     public String getColor() { return color; }
 
@@ -44,13 +43,11 @@ public class Partida {
 
     public int getTurno() {return turno;}
 
-    //Método que se encarga de elegir el primer turno. (Quien empezará)
     public int Eleccion_Primer_Turno() {
         int eleccion = (int) Math.random()*10;
         return eleccion;
     }
 
-    //Método que se encarga de Comprobar se cumplen las condiciones de victoria.
     public boolean ComprobarVictoria(char value) {
         boolean victoria = false;
         if(cuadricula[0] == value && cuadricula[1] == value && cuadricula[2] == value) {
@@ -73,7 +70,6 @@ public class Partida {
         return victoria;
     }
 
-    //Método que se encarga de inicializar la partida.
     public void EmpezarPartida() {
         estado = true;
         if(Eleccion_Primer_Turno()<5) {
@@ -83,13 +79,11 @@ public class Partida {
         }
     }
 
-    //Método que se encarga de finalizar la partida.
     public void FinalizarPartida() {
         estado = false;
         VaciarCuadricula();
     }
 
-    //Método que se ejecuta al finalizar la partida.
     public static void AbandonarPartida() {
         djugador1 = djugador1 +1;
         vjugador2 = vjugador2+1;
@@ -108,7 +102,6 @@ public class Partida {
         return resultado;
     }
 
-    //Método que setea las propiedades del turno. (color de ficha, y tipo)
     public void PropiedadesTurno() {
         if(turno==0) {
             value = "X";
@@ -119,13 +112,11 @@ public class Partida {
         }
     }
 
-    //Método que setea la ficha en la cuadrícula.
     public void setPosCuadricula(int index,char value) {
 
         cuadricula[index] = value;
     }
 
-    //Método que vacía la cuadrícula.
     public void VaciarCuadricula() {
 
         for (int i=0;i<cuadricula.length;i++) {
@@ -133,7 +124,6 @@ public class Partida {
         }
     }
 
-    //Método que nos devuelve el estado de la cuadrícula. (Para saber si está ocupada o no)
     public boolean EstadoCuadricula(char value) {
         boolean result;
         if(value != 'X' && value != 'O') {
