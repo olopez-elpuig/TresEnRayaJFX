@@ -17,15 +17,15 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button fx:id="B11" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <Button fx:id="B01" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="1" />
-                <Button fx:id="B02" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="2" />
-                <Button fx:id="B10" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.rowIndex="1" />
-                <Button fx:id="B00" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" />
-                <Button fx:id="B12" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                <Button fx:id="B20" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.rowIndex="2" />
-                <Button fx:id="B21" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                <Button fx:id="B22" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#13b6d3" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Button fx:id="B11" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Button fx:id="B01" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="1" />
+                <Button fx:id="B02" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="2" />
+                <Button fx:id="B10" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.rowIndex="1" />
+                <Button fx:id="B00" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" />
+                <Button fx:id="B12" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Button fx:id="B20" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.rowIndex="2" />
+                <Button fx:id="B21" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Button fx:id="B22" disable="true" mnemonicParsing="false" onAction="#clickButton" prefHeight="353.0" prefWidth="309.0" styleClass="buttonEnJuego" textFill="#000000" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             </children>
         </GridPane>
         <RadioButton fx:id="radioButton1" layoutX="491.0" layoutY="99.0" mnemonicParsing="false" text="RadioButton" textFill="#13b6d3">
